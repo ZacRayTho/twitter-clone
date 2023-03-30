@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {
     BellIcon,
     HashtagIcon,
@@ -13,7 +14,7 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
     return (
-        <div>
+        <div className='flex flex-col'>
             <img
                 className='h-10 w-10'
                 src="https://links.papareact.com/drq"
@@ -21,8 +22,14 @@ function Sidebar() {
             />
 
             <SidebarRow Icon={HomeIcon} title="Home" />
+            <SidebarRow Icon={HashtagIcon} title="Explore" />
+            <SidebarRow Icon={BellIcon} title="Notifications" />
+            <SidebarRow Icon={EnvelopeIcon} title="Messages" />
+            <SidebarRow Icon={BookmarkIcon} title="Bookmarks" />
+            <SidebarRow Icon={InboxStackIcon} title="Lists" />
+            <SidebarRow Icon={UserIcon} title="Sign In" />
+            <SidebarRow Icon={EllipsisHorizontalCircleIcon} title="More" />
 
-            Sidebar
         </div>
     )
 }
