@@ -17,7 +17,7 @@ function Tweetbox() {
             <div className="flex flex-1 items-center pl-2">
                 <form className='flex flex-1 flex-col'>
                     <input
-                        className="h-24 w-full text-xl outline-none placeholder: text-xl"
+                        className="h-24 w-full text-xl outline-none placeholder:text-xl"
                         type="text"
                         placeholder="What's Happening?"
                         value={input}
