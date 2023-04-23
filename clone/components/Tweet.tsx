@@ -106,7 +106,7 @@ function Tweet({ tweet }: Props) {
 
             {commentBoxVisible && (
                 <form
-                    onClick={handleSubmit}
+                    onSubmit={handleSubmit}
                     className='mt-3 space-x-3 flex'>
                     <input
                         value={input}
